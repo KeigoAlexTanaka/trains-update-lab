@@ -2,7 +2,7 @@
 
 _Introduction_
 
-For this lab, you will build another React front end for the `trains` app, except this time you will include a form for Editing a train.  Feel free to use the demo as a guide, but don't try to follow it too strictly.  In the end, the core functionality of create, read, and udpate should be present.
+For this lab, you will build another React front end for the `trains` app, except this time you will include a form for Editing a train.  Feel free to use the Twutter app as a guide, but don't try to follow it too strictly.  In the end, the core functionality of create, read, and udpate should be present.
 
 ### The Api
 We'll be using the trains api.
@@ -34,12 +34,13 @@ Here is a JSON representation of a train:
 
 ## The Task
 
-Build a React front end (perhaps using react-router) that includes the following views:
+Build a React front end (hint: use react-router) that includes the following views:
 
-- A Train List that lists all trains
+- A Train List that renders all the trains
+- A Train Item that renders one train (30 min)
 - A New Train view that includes a form for creating a new train
 - An Edit Train view that includes a form for updating an existing train
 
 Good luck!
 
-You should fork + clone this repo, run `create-react-app` and take it from there!
+You should fork and clone this repo, run `create-react-app` and take it from there!

@@ -8,7 +8,7 @@ import Train from './components/Train/Train';
 import axios from 'axios';
 
 const BASE_URL = 'http://wdi_friends.draketalley.com/api';
-const API_KEY = 'eyJhbGciOiJub25lIn0.eyJlbWFpbCI6InRhbmFrYXJ1czNAaG90bWFpbC5jb20iLCJuYW1lIjoia2VpZ28iLCJpZCI6IjkxZmM0MGNhLThjZTYtNDE5My04MzgwLTlhZjQxZjFhZmRhYyJ9.';
+const API_KEY = 'insert api key here';
 const api = axios.create({
   baseURL: BASE_URL,
   headers: {

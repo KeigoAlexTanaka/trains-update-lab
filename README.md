@@ -1,8 +1,10 @@
 # Update Lab
 
-_Introduction_
-
-For this lab, you will build another React front end for the `trains` app, except this time you will include a form for Editing a train.  Feel free to use the Twutter app as a guide, but don't try to follow it too strictly.  In the end, the core functionality of create, read, and udpate should be present.
+## Notes
+- Remember to add your own API key in App.js
+- You cannot delete trains that you didn't create
+- Each train instance you create must be unique
+- PUT route has been fixed
 
 ### The Api
 We'll be using the trains api.
@@ -40,7 +42,3 @@ Build a React front end (hint: use react-router) that includes the following vie
 - A Train Item that renders one train (30 min)
 - A New Train view that includes a form for creating a new train
 - An Edit Train view that includes a form for updating an existing train
-
-Good luck!
-
-You should fork and clone this repo, run `create-react-app` and take it from there!

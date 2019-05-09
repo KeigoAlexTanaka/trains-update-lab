@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = props => {
   return (
-    <form onSubmit={e => props.putTrain(e,props.id)}>
+    <form className="column" onSubmit={e => props.putTrain(e,props.id)}>
       <label htmlFor="name">Name: </label>
       <input onChange={e => props.handleChange(e)}
         type="text"
